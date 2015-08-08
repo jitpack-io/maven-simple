@@ -2,13 +2,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.jitpack</groupId>
+  <groupId>io.jitpack.examples</groupId>
   <artifactId>jitpack-maven-example</artifactId>
-  <version>0.3-SNAPSHOT</version>
+  <version>0.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>example</name>
-  <url>https://jitpack.io/#jitpack/example/0.1</url>
+  <name>maven simple example</name>
+  <url>https://jitpack.io/#jitpack-io/maven-simple</url>
 
   <dependencies>
     <dependency>
