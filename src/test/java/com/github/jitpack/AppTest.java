@@ -16,8 +16,16 @@ public class AppTest
     }
 
     @Test
-    public void testTrue()
+    public void testTrue() throws Exception
     {
+	Thread.sleep(1000)
         assertTrue( true );
+    }
+
+    @Test
+    public void testFalse() throws Exception
+    {
+	Thread.sleep(1000)
+        assertTrue( false );
     }
 }
