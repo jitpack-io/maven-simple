@@ -18,6 +18,7 @@ public class AppTest
     @Test
     public void testTrue() throws Exception
     {
+	System.out.println("sleeping");
 	Thread.sleep(1000);
         assertTrue( true );
     }
@@ -25,7 +26,9 @@ public class AppTest
     @Test
     public void testFalse() throws Exception
     {
+	System.out.println("sleeping");
 	Thread.sleep(1000);
+	System.out.println("testFalse assert");
         assertTrue( false );
     }
 }
