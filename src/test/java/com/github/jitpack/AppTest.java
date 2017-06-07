@@ -1,6 +1,8 @@
 package com.github.jitpack;
 
 import org.junit.Test;
+import org.junit.Before;
+import org.junit.After;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -12,7 +14,18 @@ public class AppTest
     @Test
     public void testApp()
     {
+	System.out.println("Testing app");
         assertEquals("Hello world", app.greet("world"));
+    }
+
+    @Before
+    public void before() {
+        System.out.println("Test Starting");
+    }
+
+    @After
+    public void after() {
+	System.out.println("Test Done");
     }
 
     @Test
